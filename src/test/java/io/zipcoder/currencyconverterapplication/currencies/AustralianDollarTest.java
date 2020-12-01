@@ -25,11 +25,13 @@ public class AustralianDollarTest implements CurrencyTestInterface {
 
     @Test
     public void testAustralianConversion() {
+
         testConversion(CurrencyType.AUSTRALIAN_DOLLAR, 1.0);
     }
 
     @Test
     public void testCanadianDollarConversion() {
+
         testConversion(CurrencyType.CANADIAN_DOLLAR, .9777777777777777);
     }
 
